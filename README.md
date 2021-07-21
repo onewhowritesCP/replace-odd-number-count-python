@@ -8,6 +8,7 @@ Try below Python Code: First replace the last consecutive odd number with the co
 
 Reason: It would be convenient to traverse the whole list with replacing consecutive odd numbers with -1, else the structure and indices of numbers would change and makes it difficult to iterate."
 
+```
 l=[222,3,35,62,124,61,29,375,66,7,-1]
 count = 0
 for i in range(0,len(l)):
@@ -23,3 +24,4 @@ for i in range(0,len(l)):
 l = [i for i in l if i>=0 ]
 
 print(l)
+```
