@@ -6,7 +6,7 @@ output:[222, 2, 62, 124, 3, 66, 7]
 
 Try below Python Code: First replace the last consecutive odd number with the count and then the preceding odd number with -1. Finally, remove all -1 from the list.
 
-Reason: It would be convenient to traverse the whole list with replacing consecutive odd numbers with -1, else the structure and indices of numbers would change and makes it difficult to iterate.
+Reason: It would be convenient to traverse the whole list with replacing consecutive odd numbers with -1, else the structure and indices of numbers would change and makes it difficult to iterate."
 
 l=[222,3,35,62,124,61,29,375,66,7,-1]
 count = 0
